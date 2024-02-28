@@ -19,9 +19,6 @@ function HomeData() {
           <Link href="/allitems" className="text-lg">
             Browse our Items
           </Link>
-          <Link href="#" className="text-lg">
-            Checkout
-          </Link>
         </div>
         <div>
           <Link href="cart">
@@ -30,7 +27,9 @@ function HomeData() {
         </div>
       </nav>
       <Container>
-        <h1 className="text-4xl font-semibold mt-7 text-white">My Randome Store</h1>
+        <h1 className="text-4xl font-semibold mt-7 text-white">
+          My Randome Store
+        </h1>
       </Container>
     </div>
   );
