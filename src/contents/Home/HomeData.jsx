@@ -1,13 +1,16 @@
 import React from "react";
 import Link from "next/link";
 
+// /components
+import Container from "@/components/Container";
+
 // assets
 import Cart from "@/icons/Cart";
 
 function HomeData() {
   return (
-    <div>
-      <nav className="flex items-center justify-between px-5 bg-gray-500 py-3 text-white">
+    <div className="bg-MyBg h-screen">
+      <nav className="flex items-center justify-between px-5 bg-gray-500/40 py-3 text-white">
         <div />
         <div className="flex items-center gap-x-6">
           <Link href="/form" className="text-lg">
@@ -26,9 +29,9 @@ function HomeData() {
           </Link>
         </div>
       </nav>
-      <div className="">
-        <h1 className="text-4xl font-semibold">My Randome Store</h1>
-      </div>
+      <Container>
+        <h1 className="text-4xl font-semibold mt-7 text-white">My Randome Store</h1>
+      </Container>
     </div>
   );
 }
